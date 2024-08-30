@@ -326,7 +326,7 @@
                     <td class="auto-style8">
                         <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
 &nbsp;&nbsp;
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="TextBox7" ErrorMessage="Enter proper username"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="TextBox6" ErrorMessage="Enter proper username"></asp:RequiredFieldValidator>
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -425,7 +425,10 @@
                     <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style8">&nbsp;</td>
                     <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Panel ID="Panel2" runat="server">
+                        </asp:Panel>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
