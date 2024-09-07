@@ -28,7 +28,7 @@ namespace Assignment
                 string str2 = "select id from form where Username='" + TextBox1.Text + "'and Password='" + TextBox2.Text + "'";
                 SqlCommand comm1 = new SqlCommand(str, con);
                 con.Open();
-                string id = comm1.ExecuteNonQuery().ToString();
+                string id = comm1.ExecuteScalar().ToString();
                 con.Close();
                 Session["uid"] = id;
                 Response.Redirect("UserProfile.aspx");
