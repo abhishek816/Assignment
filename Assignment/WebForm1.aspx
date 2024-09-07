@@ -411,6 +411,8 @@
                     <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style8">
                         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Display" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Insert" />
                     </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -429,6 +431,34 @@
                         <asp:Panel ID="Panel2" runat="server">
                         </asp:Panel>
                     </td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style8">
+                        <asp:Label ID="Label38" runat="server" Text="Label"></asp:Label>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style8">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>
+                        &nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
