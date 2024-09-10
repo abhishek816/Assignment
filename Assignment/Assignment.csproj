@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="changepass.aspx" />
+    <Content Include="grid.aspx" />
     <Content Include="login_page.aspx" />
     <Content Include="new.aspx" />
     <Content Include="UserProfile.aspx" />
@@ -81,6 +82,13 @@
     </Compile>
     <Compile Include="changepass.aspx.designer.cs">
       <DependentUpon>changepass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="grid.aspx.cs">
+      <DependentUpon>grid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="grid.aspx.designer.cs">
+      <DependentUpon>grid.aspx</DependentUpon>
     </Compile>
     <Compile Include="login_page.aspx.cs">
       <DependentUpon>login_page.aspx</DependentUpon>
