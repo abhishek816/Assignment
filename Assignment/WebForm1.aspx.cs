@@ -72,8 +72,25 @@ namespace Assignment
             
         }
 
-        protected void Button2_Click1(object sender, EventArgs e)
+       
+
+        protected void TextBox6_TextChanged(object sender, EventArgs e)
         {
+            string str1 = "select count(id) from form where Username='" + TextBox6.Text + "'";
+            SqlCommand com = new SqlCommand(str1, con);
+            con.Open();
+            string cid = com.ExecuteScalar().ToString();
+            con.Close();
+            int cid1 = Convert.ToInt32(cid);
+            if (cid1 > 0)
+            {
+                Label39.Visible = true;
+                Label39.Text = "Choose another username!";
+            }
+            else
+            {
+                Label39.Visible = false;
+            }
 
         }
     }

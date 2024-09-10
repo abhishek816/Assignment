@@ -31,5 +31,18 @@ namespace Assignment
 
             }
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            string sel1 = "update form set Age=" + TextBox2.Text + ",Address='" + TextBox3.Text + "'where id=" + Session["uid"] + "";
+            SqlCommand comm1 = new SqlCommand(sel1, con);
+            con.Open();
+            int i = comm1.ExecuteNonQuery();
+            con.Close();
+            if (i == 1)
+            {
+                Label1.Text = "Updated!";
+            }
+        }
     }
 }

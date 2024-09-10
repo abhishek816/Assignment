@@ -324,11 +324,13 @@
                         <asp:Label ID="Label10" runat="server" Text="Username:"></asp:Label>
                     </td>
                     <td class="auto-style8">
-                        <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox6" runat="server" AutoPostBack="True" OnTextChanged="TextBox6_TextChanged"></asp:TextBox>
 &nbsp;&nbsp;
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="TextBox6" ErrorMessage="Enter proper username"></asp:RequiredFieldValidator>
                     </td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Label ID="Label39" runat="server" Text="Label" Visible="False"></asp:Label>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
