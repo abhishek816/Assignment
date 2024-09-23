@@ -16,7 +16,7 @@
         <table class="auto-style1">
             <tr>
                 <td>
-                    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" PageSize="2">
+                    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" OnPageIndexChanging="GridView1_PageIndexChanging" PageSize="2">
                         <Columns>
                             <asp:TemplateField HeaderText="Delete">
                                 <ItemTemplate>
